@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercise 4</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <style>
+            .banner-image{ 
+                background-color: #BEBEBE;
+                color: #848484;
+                height: 240px;
+                font-size: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 5px;
+            }
+            .first-item{
+                margin-top: 15px;
+            }
+            .first-item p{
+                text-align: justify;
+            }
+            #main{
+                background-color: gray;
+                color: white;
+                border-radius: 5px;
+                margin-top: 15px;
+                padding: 15px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand ml-5" href="#">Start Bootstrap</a>
+          
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <!-- Navbar links -->
+            <ul class="navbar-nav ml-auto mr-5">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">
+                      Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      About
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      Services
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      Contact
+                    </a>
+                </li>
+            </ul>
+          </nav>
+        <div class="container"> 
+            <div class="row">
+                <div class="col-lg-8 first-item">
+                    <div class="banner-image">900 x 400</div>
+                </div>
+                <div class="col-lg-4 first-item">
+                    <h2>Business Name or Tagline</h2>
+                    <p>This is a template that is great for small business. It doesn't have too much fancy flare to it, but it makes great use of the standard Bootstrap core components. Feel free to use this template for any project you want!</p>
+                    <button type="button" class="btn btn-primary">Call to Action!</button>
+                </div>
+            </div>
+
+            <p id="main"> This call to action card is a great place to showcase some important infomation or display a clever tagline! </p>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 d-flex align-items-stretch mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                            <h4 class="card-title">Card One</h4>
+                            <p class="card-text">
+                                Loren ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.
+                            </div>
+                            <div class="card-header"> 
+                                <button type="button" class="btn btn-primary">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex align-items-stretch mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                            <h4 class="card-title">Card Two</h4>
+                            <p class="card-text">
+                                Loren ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labores.
+                            </div>
+                            <div class="card-header"> 
+                                <button type="button" class="btn btn-primary">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex align-items-stretch mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                            <h4 class="card-title">Card Three</h4>
+                            <p class="card-text">
+                                Loren ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.
+                            </div>
+                            <div class="card-header"> 
+                                <button type="button" class="btn btn-primary">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
